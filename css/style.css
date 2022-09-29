@@ -110,4 +110,11 @@ a{
 }
 /* /Section:ps-plus */
 
+/* section:ps-now */
+#ps-now{
+    background-color: var(--ms_dark-blue);
+    color:white;
+}
+/* /section:ps-now */
+
 /* /MAIN */
