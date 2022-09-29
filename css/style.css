@@ -29,3 +29,15 @@ a{
     text-decoration: none;
 }
 /* /COMMON */
+
+/* HEADER */
+.header-top{
+    background-color: black;
+    height: 45px;
+    line-height: 45px;
+}
+
+.header-top-logo{
+    width: 75px;
+}
+/* /HEADER */
