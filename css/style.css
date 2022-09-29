@@ -87,6 +87,16 @@ a{
 .jumbo-mid{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+.carousel-img{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.jumbo-carousel-mid{
+    background-color: var(--ms_light-black);
+    color: white;
+}
 /* /jumbotron */
 
 /* /MAIN */
