@@ -11,7 +11,8 @@
     
     --ms_main-orange: #CD3D0F;
 
-    --ms_off-white: #BEBCBB;
+    --ms_light-brown: #BEBCBB;
+    --ms_off-white: #D9DADC;
 }
 /* VAR */
 
@@ -48,6 +49,10 @@ a{
     background-color: var(--ms_main-orange);
 }
 
+.ms_btn-light{
+    background-color: var(--ms_off-white);
+    color: var(--ms_light-blue);
+}
 /* /buttons */
 /* /COMMON */
 
@@ -98,5 +103,11 @@ a{
     color: white;
 }
 /* /jumbotron */
+
+/* Section:ps-plus */
+#ps-plus{
+    background-color: var(--ms_light-brown);
+}
+/* /Section:ps-plus */
 
 /* /MAIN */
