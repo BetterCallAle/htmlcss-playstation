@@ -117,5 +117,19 @@ a{
     color:white;
 }
 /* /section:ps-now */
-
 /* /MAIN */
+
+/* FOOTER */
+footer{
+    background-color: var(--ms_main-blue);
+    color: white;
+}
+
+.footer-top-info img{
+    width: 5%;
+}
+
+.footer-bottom img{
+    width: 10%;
+}
+/* /FOOTER */
