@@ -37,21 +37,22 @@ a{
 /* buttons */
 .ms_btn{
     border-radius: 50px;
-    color: white;
 }
 
 .ms_btn-dark{
     background-color: var(--ms_light-black);
-    border: none;
+    color: white;
 }
 
 .ms_btn-orange{
     background-color: var(--ms_main-orange);
+    color: white;
 }
 
 .ms_btn-light{
     background-color: var(--ms_off-white);
     color: var(--ms_light-blue);
+    color: white;
 }
 /* /buttons */
 /* /COMMON */
