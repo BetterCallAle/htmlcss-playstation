@@ -30,10 +30,23 @@ a{
     text-decoration: none;
 }
 
-.section-heading{
-    text-align: center;
+h2{
+    font-size: 2rem;
 }
 
+.section-heading{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-heading h1,
+.section-heading h2{
+    margin-bottom: 1.5rem;
+}
+
+.ms_text-light p{
+    color: var(--ms_txt-black);
+}
 /* buttons */
 .ms_btn{
     border-radius: 50px;
@@ -91,9 +104,14 @@ a{
 /* /HEADER */
 
 /* MAIN */
+section{
+    padding: 1.5rem 0;
+    margin-bottom: 1.5rem;
+}
 /* jumbotron */
 #jumbotron-top{
     margin-top: 121px;
+    padding-top: 0
 }
 
 .jumbo-banner{
@@ -146,6 +164,29 @@ a{
     font-size: .8rem;
 }
 /* /jumbotron */
+
+/* Section:ps5 */
+.section-heading h6{
+    color: var(--ms_light-blue);
+    margin-bottom: 0;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+#ps5 .ms_card{
+    opacity: .5;
+    text-align: center;
+}
+
+#ps5 .ms_card-active{
+    opacity: 1;
+    position: relative;
+}
+
+.ms_card-txt h5{
+    font-size: 1rem;
+}
+/* /Section:ps5 */
 
 /* Section:ps-plus */
 #ps-plus{
