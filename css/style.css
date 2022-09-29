@@ -29,6 +29,7 @@ a{
     text-decoration: none;
 }
 
+/* buttons */
 .ms_btn{
     border-radius: 50px;
     color: white;
@@ -38,6 +39,11 @@ a{
     background-color: var(--ms_light-black);
     border: none;
 }
+
+.ms_btn-orange{
+    background-color: var(--ms_main-orange);
+}
+/* /buttons */
 /* /COMMON */
 
 /* HEADER */
@@ -60,3 +66,17 @@ a{
     vertical-align: sub;
 }
 /* /HEADER */
+
+/* MAIN */
+/* jumbotron */
+.jumbo-banner{
+    background-image: url(../img/jumbo-bg.png);
+    color: white;
+    /* debug */
+    min-height: 500px;
+}
+
+
+/* /jumbotron */
+
+/* /MAIN */
