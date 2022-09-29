@@ -68,8 +68,20 @@ a{
     width: 75px;
 }
 
+.header-bottom{
+    background-color: white;
+}
+
+.header-bottom .nav-link{
+    color:black;
+}
+
+.ms_chevron{
+    width: .5rem;
+}
+
 .header-bottom .ms_btn{
-    margin: 0 1rem;
+    margin-left: 1rem;
 }
 
 .search-items{
@@ -130,6 +142,6 @@ footer{
 }
 
 .footer-bottom img{
-    width: 10%;
+    width: 20%;
 }
 /* /FOOTER */
