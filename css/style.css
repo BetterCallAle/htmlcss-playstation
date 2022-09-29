@@ -29,6 +29,10 @@ a{
     text-decoration: none;
 }
 
+.section-heading{
+    text-align: center;
+}
+
 /* buttons */
 .ms_btn{
     border-radius: 50px;
@@ -43,6 +47,7 @@ a{
 .ms_btn-orange{
     background-color: var(--ms_main-orange);
 }
+
 /* /buttons */
 /* /COMMON */
 
