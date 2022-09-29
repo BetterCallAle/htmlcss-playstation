@@ -75,13 +75,18 @@ a{
 /* MAIN */
 /* jumbotron */
 .jumbo-banner{
-    background-image: url(../img/jumbo-bg.png);
     color: white;
     /* debug */
     min-height: 500px;
 }
 
+.jumbo-top{
+    background-image: url(../img/jumbo-bg.png);
+}
 
+.jumbo-mid{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
 /* /jumbotron */
 
 /* /MAIN */
