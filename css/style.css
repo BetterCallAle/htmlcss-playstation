@@ -28,6 +28,16 @@ a{
     color: inherit;
     text-decoration: none;
 }
+
+.ms_btn{
+    border-radius: 50px;
+    color: white;
+}
+
+.ms_btn-dark{
+    background-color: var(--ms_light-black);
+    border: none;
+}
 /* /COMMON */
 
 /* HEADER */
@@ -39,5 +49,14 @@ a{
 
 .header-top-logo{
     width: 75px;
+}
+
+.header-bottom .ms_btn{
+    margin: 0 1rem;
+}
+
+.search-items{
+    font-size: 1.3rem;
+    vertical-align: sub;
 }
 /* /HEADER */
