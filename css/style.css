@@ -5,7 +5,7 @@
     --ms_gray: #BEBCBB;
     --ms_txt-black: #777777;
     
-    --ms_light-blue: #167ED2;
+    --ms_light-blue: #2285D4;
     --ms_main-blue: #00439C;
     --ms_dark-blue: #161C3B;
     
@@ -70,6 +70,31 @@ p{
     background-color: var(--ms_off-white);
     color: var(--ms_light-blue);
     font-weight: 500;
+}
+
+.btn:first-child:hover, :not(.btn-check)+.btn:hover{
+    box-shadow: inset 5px -5px 10px 93px rgba(0, 0, 0, 0.3);
+}
+
+:not(.btn-check)+.btn.ms_btn-orange:hover{
+    background-color:var(--ms_main-orange);
+    outline: 1px solid var(--ms_main-orange);
+}
+
+.btn.ms_btn-dark:first-child:hover{
+    background-color:black;
+    outline: 1px solid black;
+    color: white;
+}
+
+:not(.btn-check)+.btn.btn-primary:hover{
+    background-color:var(--ms_light-blue);
+    outline: 1px solid var(--ms_light-blue);
+}
+
+:not(.btn-check)+.btn.ms_btn-light:hover{
+    background-color:var(--ms_off-white);
+    outline: 1px solid var(--ms_off-white);
 }
 /* /buttons */
 /* /COMMON */
@@ -156,7 +181,19 @@ p{
     position: absolute;
     top: -2%;
     left: -1%;
-    
+}
+
+.carousel-card{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: all 125ms linear;
+}
+
+.carousel-card:hover{
+    position: relative;
+    bottom: 10px;
+    left: 0;
 }
 
 .jumbo-carousel-mid{
@@ -180,6 +217,14 @@ p{
 #ps5 .ms_card{
     opacity: .5;
     text-align: center;
+    transition: all 125ms linear;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+#ps5 .ms_card:hover{
+    opacity:.8;
+    border-bottom: 2px solid var(--ms_light-blue);;
 }
 
 #ps5 .ms_card-active{
@@ -216,6 +261,11 @@ footer{
 .footer-top-info img{
     width: 4%;
     margin-right: .5rem;
+}
+
+.footer-nav ul li a:hover{
+    color: white;
+    text-decoration: underline;
 }
 
 .footer-bottom img{
