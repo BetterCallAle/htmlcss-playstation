@@ -116,6 +116,19 @@ p{
     width: .5rem;
 }
 
+.ms_chevron-up{
+    display: none;
+    width: .5rem;
+}
+
+.nav-item:hover .ms_chevron{
+    display: none;
+}
+
+.nav-item:hover .ms_chevron-up{
+    display: inline-block;
+}
+
 .header-bottom .ms_btn{
     margin-left: 1rem;
 }
