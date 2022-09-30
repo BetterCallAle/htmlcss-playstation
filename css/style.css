@@ -58,12 +58,10 @@ p{
 
 .ms_btn-dark{
     background-color: var(--ms_light-black);
-    color: white;
 }
 
 .ms_btn-orange{
     background-color: var(--ms_main-orange);
-    color: white;
 }
 
 .ms_btn-light{
@@ -84,7 +82,6 @@ p{
 .btn.ms_btn-dark:first-child:hover{
     background-color:black;
     outline: 1px solid black;
-    color: white;
 }
 
 :not(.btn-check)+.btn.btn-primary:hover{
@@ -108,10 +105,6 @@ p{
 
 .header-top-logo{
     width: 75px;
-}
-
-.header-bottom{
-    background-color: white;
 }
 
 .header-bottom .nav-link{
@@ -143,7 +136,6 @@ p{
 }
 
 .jumbo-banner{
-    color: white;
     min-height: 600px;
     padding: 2.5rem 0;
     background-size: cover;
@@ -198,7 +190,6 @@ p{
 
 .jumbo-carousel-mid{
     background-color: var(--ms_light-black);
-    color: white;
 }
 
 .carousel-txt h5{
@@ -246,7 +237,6 @@ p{
 /* section:ps-now */
 .wrapper-now{
     background-color: var(--ms_dark-blue);
-    color:white;
 }
 /* /section:ps-now */
 /* /MAIN */
@@ -255,7 +245,6 @@ p{
 footer{
     padding: 5rem 0;
     background-color: var(--ms_main-blue);
-    color: white;
 }
 
 .footer-top-info img{
@@ -263,7 +252,7 @@ footer{
     margin-right: .5rem;
 }
 
-.footer-nav ul li a:hover{
+footer a:hover{
     color: white;
     text-decoration: underline;
 }
