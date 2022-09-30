@@ -149,13 +149,14 @@ p{
 .carousel-active::before{
     content: "";
     display: inline-block;
-    border: 2px solid var(--ms_light-blue);
+    outline: 2px solid var(--ms_light-blue);
     border-radius: 10px;
-    height: 106%;
-    width: 106%;
+    height: 104%;
+    width: 102%;
     position: absolute;
-    top: -3%;
-    left: -3%;
+    top: -2%;
+    left: -1%;
+    
 }
 
 .jumbo-carousel-mid{
