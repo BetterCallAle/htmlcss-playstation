@@ -65,7 +65,7 @@ h2{
 .ms_btn-light{
     background-color: var(--ms_off-white);
     color: var(--ms_light-blue);
-    color: white;
+    font-weight: 500;
 }
 /* /buttons */
 /* /COMMON */
