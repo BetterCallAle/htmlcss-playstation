@@ -34,6 +34,10 @@ h2{
     font-size: 2rem;
 }
 
+p{
+    font-weight: 600;
+}
+
 .section-heading{
     text-align: center;
     margin-bottom: 4rem;
@@ -183,7 +187,7 @@ h2{
 }
 
 .ms_card-txt h5{
-    font-size: 1rem;
+    font-size: .9rem;
 }
 /* /Section:ps5 */
 
@@ -203,6 +207,7 @@ h2{
 
 /* FOOTER */
 footer{
+    padding: 5rem 0;
     background-color: var(--ms_main-blue);
     color: white;
 }
