@@ -104,9 +104,8 @@ h2{
 /* /HEADER */
 
 /* MAIN */
-section{
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
+.section-heading{
+    margin: 2rem 0
 }
 /* jumbotron */
 #jumbotron-top{
