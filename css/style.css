@@ -105,8 +105,8 @@ h2{
 
 /* MAIN */
 section{
-    padding: 1.5rem 0;
-    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 /* jumbotron */
 #jumbotron-top{
@@ -180,7 +180,7 @@ section{
 
 #ps5 .ms_card-active{
     opacity: 1;
-    position: relative;
+    border-bottom: 2px solid var(--ms_light-blue);
 }
 
 .ms_card-txt h5{
