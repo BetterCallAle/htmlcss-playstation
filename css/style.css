@@ -51,6 +51,7 @@ p{
 .ms_text-light p{
     color: var(--ms_txt-black);
 }
+
 /* buttons */
 .ms_btn{
     border-radius: 50px;
@@ -129,7 +130,7 @@ p{
     width: 100vw;
     background-color: white;
     position: absolute;
-    top: 70%;
+    top: 77%;
     left: 0;
     display:none;
 }
@@ -172,6 +173,7 @@ p{
 .section-heading{
     margin: 2rem 0
 }
+
 /* jumbotron */
 #jumbotron-top{
     margin-top: 121px;
@@ -251,9 +253,9 @@ p{
 #ps5 .ms_card{
     opacity: .5;
     text-align: center;
-    transition: all 125ms linear;
     cursor: pointer;
     border-bottom: 2px solid transparent;
+    transition: all 125ms linear;
 }
 
 #ps5 .ms_card:hover{
